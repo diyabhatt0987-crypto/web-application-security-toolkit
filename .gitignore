@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Local credentials and security data
+login_credentials.json
+modules/user/security_data/
+
+# Local scan history
+gui_scan_history.json
+scan_history.json
+
+# Generated reports and scan outputs
+reports/
+layer_scan_*.txt
+security_report.txt
